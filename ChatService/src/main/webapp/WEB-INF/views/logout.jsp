@@ -4,7 +4,7 @@
 <html>
 	<!-- Head -->
 	<head>
-		<title>Home</title>
+		<title>Logout</title>
 		<meta charset="utf-8">
 		<link href="<c:url value="/resources/css/main.css" />" rel="stylesheet"/>
 	</head>
@@ -37,7 +37,7 @@
 		<!-- Main -->
 		<div id="main">
 			<div>
-				<c:out value="${serverTime}" />
+				Logout
 			</div>
 		</div>
 		

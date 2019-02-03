@@ -4,7 +4,7 @@
 <html>
 	<!-- Head -->
 	<head>
-		<title>Home</title>
+		<title>Login</title>
 		<meta charset="utf-8">
 		<link href="<c:url value="/resources/css/main.css" />" rel="stylesheet"/>
 	</head>
@@ -37,7 +37,19 @@
 		<!-- Main -->
 		<div id="main">
 			<div>
-				<c:out value="${serverTime}" />
+				<form action="Login" method="post">
+					<table class="inputFormTable">
+						<tr>
+							<td><input type="text" name="loginId" /></td>
+						</tr>
+						<tr>
+							<td><input type="password" name="password" /></td>
+						</tr>
+						<tr>
+							<td><input type="submit" value="ログイン" /></td>
+						</tr>
+					</table>
+				</form>
 			</div>
 		</div>
 		

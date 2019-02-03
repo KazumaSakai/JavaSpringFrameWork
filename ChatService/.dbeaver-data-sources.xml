@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-sources>
+	<data-source id="mysql8-168b29e182f-2084879a5e4aeb89" provider="mysql" driver="mysql8" name="MySQL 8.x - ChatService" save-password="true" show-system-objects="true" read-only="false">
+		<connection host="localhost" port="3306" server="" database="ChatService" url="jdbc:mysql://localhost:3306/ChatService" user="root" password="Hh0VMU0jpQ==" home="C:\xampp\mysql" type="dev">
+			<provider-property name="@dbeaver-serverTimezone@" value="Japan"/>
+		</connection>
+	</data-source>
+	<filters/>
+</data-sources>

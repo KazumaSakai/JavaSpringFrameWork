@@ -1,4 +1,4 @@
-package jp.shidenvip.chatservice;
+package jp.shidenvip.chatservice.controller;
 
 import java.text.DateFormat;
 import java.util.Date;
@@ -25,6 +25,7 @@ public class HomeController {
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
 		logger.info("Welcome home! The client locale is {}.", locale);
+		model.addAttribute("root", ".");
 		
 		Date date = new Date();
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
